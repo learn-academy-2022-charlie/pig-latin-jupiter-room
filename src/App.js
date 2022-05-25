@@ -34,12 +34,61 @@ class App extends Component{
       console.log("vowelsArray:", vowelsArray)
 
       // your code here!
-
+      for (let i = 0; i < currentWord.length; i += 1) {
+        let individualLetter = currentWord[i]} 
+        if (isVowel(individualLetter) != -1 && i === 0) { 
+            return vowelsArray + "way"}
+      }
+      
       // Remember: console.log is your friend :)
+       
+      // filter vowelsArray into the different categories
+        //
+      // filter the array for "qu" 
+      //add  qu to the end and add "ay"
+      // if (vowelsArray.includes("q","u")) { 
+      //   vowelsArray.shift()//move all character after "u"to (0),
+         //push characters removed to the end, 
+         //add "quay" to the end of array
+         
 
+              
+      // filter for vowels at char(0)
+      //for words starting with a vowel add way to end of array
+         // add "w","a", "y" to the end using push
+        //  if(vowelsArray.charAt(0) = ["a","e","i","o","u"])  {
+
+          // filter the array for "qu" 
+          //add  qu to the end and add "ay"
+          // if (vowelsArray.includes("q","u")) { 
+          //   vowelsArray.shift()//move all character after "u"to (0),
+             //push characters removed to the end, 
+             //add "quay" to the end of array
+      
+      // filter for y at the end of the array add "y" to the beginning of the array and "ay" to the end of the array
+      // use unshift
+        //* if(vowelsArray.length)
+        //   if(      = "y") 
+        
+
+      // filter for y at the beg of the array add "yay" to the end
+      //use shift and push "y","a","y"
+        //  if(vowelsArray(charAt(0)) = "y")
+
+
+              
+        // else
+         // for words starting with consonants
+         // move consonants to the end and add "a","y" to the end of the array
+          // (vowelsArray.push(vowelsArray(0),(vowelsArray.push("a","y"))))
+         
+         
+         
+
+    
 
       // ACTION ITEM: change the value of currentWord to the name of whatever variable you made containing your Pig Latin'd word
-      return currentWord
+      // return currentWord
     })
 
 
@@ -99,7 +148,7 @@ class App extends Component{
           <button onClick={this.restartGame}>Clear</button>
         </div>
         <p>{this.state.phraseTranslated}</p>
-        <footer>Coded by ~your name here~</footer>
+        <footer>Coded by ~JB & Logan~</footer>
       </>
     )
   }
