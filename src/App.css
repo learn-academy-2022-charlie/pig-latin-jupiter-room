@@ -2,6 +2,9 @@ body {
   margin: 1rem;
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
+  background-image: url("assets/mud.jpeg");
+  color: rgb(255, 255, 255);
+  width: 100%;
 }
 
 h1 {
@@ -12,14 +15,29 @@ button {
   margin: 1rem;
   border-radius: 0.5rem;
   padding: 1rem;
+  background-color: rgb(67, 17, 17);
+  color: rgb(231, 107, 128);
+}
+
+#translated {
+  border-radius: 0.5rem;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  width: 18rem;
+  height: 60px;
+  background-color: rgb(67, 17, 17);
+  color: rgb(231, 107, 128);
 }
 
 footer {
   padding: 2rem;
 }
 
-.butcherPig {
-  width: 12rem;
+.piggy {
+  width: 13rem;
 }
 
 .userInput {
@@ -28,10 +46,12 @@ footer {
   height: 5rem;
   width: 20rem;
   text-align: center;
+  border: none;
+  background-color: rgb(67, 17, 17);
+  color: rgb(231, 107, 128);
 }
 
 .inputArea {
-  background-color: #606060;
   color: #fff;
   border-radius: .5rem;
   padding: 1rem;
